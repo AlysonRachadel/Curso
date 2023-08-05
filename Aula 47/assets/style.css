@@ -1,0 +1,14 @@
+body{
+
+    background-color: rgb(140, 63, 228);
+}
+
+.container{ 
+    width: 600px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 200px;
+border-radius: 10px;
+background-color: white;
+
+}

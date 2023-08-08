@@ -1,6 +1,12 @@
-const h1= document.querySelector('.container h1');
-const data = new Date ();
+const frutas = [ 'Maça', 'Pera', 'Uva'];
+
+for (let i= 0; i< frutas.length; i++) {
+    console.log(`Indice ${i}`, frutas[i]);
+}
 
 
-    h1.innerHTML= data.toLocaleDateString('pt-BR', {dateStyle: 'full'});
 
+/*for (let i= 0; i<= 5; i+= 3 ){ 
+const par = i % 2 === 0 ? 'par' : 'impar';
+console.log(i,par )
+}*/
